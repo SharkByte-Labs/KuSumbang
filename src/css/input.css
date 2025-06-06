@@ -1,0 +1,50 @@
+@import url('https://fonts.cdnfonts.com/css/lufga');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    padding: 24px 50px;
+    font-family: 'Lufga', sans-serif;
+    max-width: 1920px;
+    margin: auto;
+    top: 0;
+    background-color: #fbfbfb;
+   
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+p {
+    font-size: clamp(1rem, 0.4375rem + 1vw, 1rem);
+}
+
+.Card {
+    background-color: #f8fafc;
+    padding: 32px;
+    border: solid;
+    border-width: 0.5px;
+    border-color: #cbd5e1;
+    border-radius: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 14px 16px;
+    }
+}
+
+.btnHover{
+    transition: all 150ms;
+}
+.btnHover:hover {
+    scale: 1.1;
+}

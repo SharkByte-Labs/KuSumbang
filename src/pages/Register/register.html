@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../css/output.css" />
+        <link rel="website icon" type="png" href="/src/assets/Kusumbang-logo.png">
+        <title>Login</title>
+    </head>
+    <body class="p-0 lg:p-3 2xl:p-6 bg-white max-w-none">
+        <script src="../../layout/layout.js"></script>
+
+        <section class="flex flex-col lg:flex-row justify-between bg-white relative overflow-hidden">
+            <img src="../../assets/login/Line.png" class="absolute -top-[36%] 2xl:-top-[18%] -left-[14%] 2xl:-left-[10%]" alt="" />
+            <div
+                class="min-h-[20vh] lg:min-h-[96.5vh] 2xl:min-h-[95vh] bg-no-repeat relative flex flex-col justify-between flex-1 login_cover bg-blend-multiply bg-black/40 lg:rounded-3xl p-6 2xl:p-8"
+                style="background-image: url('../../assets/login/claire-fischer-TbEf3aIybcs-unsplash.jpg')"
+            >
+                <a href="../../../index.html" class="text-white text-[1.2rem] md:text-4xl font-semibold">KuSumbang.</a>
+
+                <div class="hidden lg:block 2xl:mb-6">
+                    <p class="w-[70%] 2xl:w-[60%] text-white text-lg 2xl:text-xl mb-2 2xl:mb-3 font-medium">
+                        “Air bersih adalah hak setiap makhluk hidup; mari kita jaga perairan kita dengan sepenuh hati.”
+                    </p>
+                    <p class="text-white text-base 2xl:text-lg">- Dione Stark</p>
+                </div>
+            </div>
+            <div class="flex-1 flex justify-center items-center min-h-[96.5vh] 2xl:min-h-[95vh] z-20">
+                <div class="w-full lg:w-fit transform -translate-y-20 lg:translate-y-0 px-5">
+                    <div class="flex bg-zinc-100 text-zinc-400 font-medium p-2 rounded-lg w-fit mb-3 2xl:mb-5">
+                        <a href="login.html" class="2xl:px-3 px-2 py-1 text-sm 2xl:text-base 2xl:py-2 rounded-md">Log in</a>
+                        <a href="register.html" class="2xl:px-3 px-2 py-1 text-sm 2xl:text-base 2xl:py-2 bg-white text-zinc-900 rounded-md">Create Account</a>
+                    </div>
+                    <div class="lg:w-[400px] 2xl:w-[506px]">
+                        <div class="mb-6 2xl:mb-8">
+                            <h1 class="2xl:text-4xl text-[1.4rem] lg:text-3xl font-medium">Create your account</h1>
+                            <h2 class="2xl:text-lg text-sm text-zinc-500 font-medium">Welcome to KuSumbang!, Create your account now</h2>
+                        </div>
+                        <form action="" class="flex flex-col gap-3 2xl:gap-4 text-zinc-500 w-full">
+                            <input type="text" placeholder="Username" class="border rounded-lg focus:outline-none border-zinc-300 bg-transparent p-4 2xl:px-6 py-2 2xl:text-base text-sm w-full" />
+                            <input type="email" placeholder="email" class="border rounded-lg focus:outline-none border-zinc-300 bg-transparent p-4 2xl:px-6 py-2 2xl:text-base text-sm w-full" />
+                            <input type="password" placeholder="Password" class="border rounded-lg focus:outline-none border-zinc-300 bg-transparent p-4 2xl:px-6 py-2 2xl:text-base text-sm w-full" />
+                            <input
+                                type="password"
+                                placeholder="Confirm Password"
+                                class="border rounded-lg focus:outline-none border-zinc-300 bg-transparent p-4 2xl:px-6 py-2 2xl:text-base text-sm w-full"
+                            />
+                            <button class="py-2 bg-primary text-sm 2xl:text-base font-medium rounded-lg">Continue</button>
+                        </form>
+                    </div>
+                    <div class="flex items-center gap-4 my-3 2xl:my-8">
+                        <hr class="flex-grow border-t border-gray-300" />
+                        <span class="text-gray-500 text-sm 2xl:text-base">Or</span>
+                        <hr class="flex-grow border-t border-gray-300" />
+                    </div>
+                    <div class="flex flex-col items-center gap-2 2xl:gap-3">
+                        <a href="#" class="text-sm 2xl:text-base font-medium w-full items-center justify-center text-zinc-500 border py-3 2xl:py-4 flex gap-4 text-center">
+                            <img src="../../assets/login/devicon_google.png" class="w-5 h-5 2xl:h-6 2xl:w-6" alt="" />
+                            Continue with Google
+                        </a>
+                        <a href="#" class="text-sm 2xl:text-base font-medium w-full items-center justify-center text-zinc-500 border py-3 2xl:py-4 flex gap-4 text-center">
+                            <img src="../../assets/login/mac.png" class="w-5 h-5 2xl:h-6 2xl:w-6" alt="" />
+                            Continue with Apple
+                        </a>
+                        <a href="#" class="text-sm 2xl:text-base font-medium w-full items-center justify-center text-zinc-500 border py-3 2xl:py-4 flex gap-4 text-center">
+                            <img src="../../assets/login/bi_facebook.png" class="w-5 h-5 2xl:h-6 2xl:w-6" alt="" />
+                            Continue with Facebook
+                        </a>
+                        <p class="w-[400px] 2xl:w-[506px] mt-4 2xl:mt-6 text-center text-sm 2xl:text-lg text-zinc-500 px-5">
+                            By signing in or creating an account, you agree with our <span class="text-zinc-700 underline font-medium">Term & Condition</span> and
+                            <span class="text-zinc-700 underline font-medium">Privacy Statement</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

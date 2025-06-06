@@ -1,0 +1,38 @@
+<div class="flex px-5 justify-between items-center w-full xl:px-[130px] mb-6">
+    <div class="flex text-[40px] hover:cursor-pointer">
+        <p class="font-semibold text-4xl">Ku</p>
+        <p class="font-semibold text-4xl text-primary">sumbang</p>
+        <p class="font-semibold text-4xl">.</p>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <ul class="hidden lg:flex gap-3 xl:gap-6 text-xl font-medium hover:cursor-pointer">
+        <li><a href="/index.html" class="p-2">Home</a></li>
+        <li><a href="/src/pages/DonationList/donationList.html" class="p-2">Donation</a></li>
+        <li class="hidden lg:block"><a href="#" class="p-2">How It Works</a></li>
+        <li><a href="/src/pages/About/AboutUs.html" class="p-2">About Us</a></li>
+    </ul>
+
+    <!-- Burger Menu -->
+    <div id="burger-container" class="relative">
+        <div id="burger-btn" class="min-w-10 2xl:w-[58px] cursor-pointer flex flex-col gap-6" onclick="(() => document.getElementById('menu').classList.toggle('hidden'))()">
+            <hr class="border-black border-[1.5px]" />
+            <hr class="border-black border-[1.5px]" />
+        </div>
+
+        <div id="menu" class="hidden flex flex-col gap-3 absolute p-4 right-0 top-10 mt-4 border w-[267px] font-medium bg-white rounded-lg z-10">
+            <div class="block lg:hidden flex flex-col gap-3">
+                <!-- Menu from UL moved here for small screens -->
+                <a class="py-4 px-6 border rounded-lg" href="/index.html">Home</a>
+                <a class="py-4 px-6 border rounded-lg" href="/src/pages/DonationList/donationList.html">Donation</a>
+                <a class="py-4 px-6 border rounded-lg" href="#">How It Works</a>
+                <a class="py-4 px-6 border rounded-lg" href="/src/pages/About/AboutUs.html">About Us</a>
+            </div>
+            <hr class="block lg:hidden" />
+
+            <a class="py-4 px-6 border rounded-lg" href="/src/pages/History/History.html">Donation History</a>
+            <a class="py-4 px-6 border rounded-lg" href="/src/pages/auth/login.html">Login</a>
+            <a class="text-secondary bg-primary py-4 px-6 rounded-lg" href="/src/pages/auth/register.html">Create Account</a>
+        </div>
+    </div>
+</div>

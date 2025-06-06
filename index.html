@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./src/css/output.css" rel="stylesheet" />
+        <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+        <link rel="website icon" type="png" href="/src/assets/Kusumbang-logo.png" />
+        <title>KuSumbang</title>
+    </head>
+    <body>
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+        <script src="src/layout/layout.js" defer></script>
+        <!-- nav  -->
+        <nav class="sticky top-0 z-50">
+            <div id="navbar"></div>
+        </nav>
+
+        <!-- hero  -->
+        <section
+            data-aos="fade-up"
+            class="Hero w-full p-11 h-[90vh] bg-cover bg-center rounded-[24px] xl:pb-[80px] xl:px-[130px] items-end flex"
+            style="background-image: url(./src/assets/trash-landing.png)"
+        >
+            <div class="w-full flex flex-col gap-9 xl:gap-0">
+                <div class="flex items-center gap-4">
+                    <hr class="w-[100px] border-white" />
+                    <p class="text-white font-medium text-lg">KuSumbang.</p>
+                </div>
+                <div class="text-white max-w-[1296px] flex flex-col gap-4">
+                    <p class="text-8xl xl:text-8xl/[115.2px] font-semibold">
+                        Perairan Butuh
+                        <span class="text-primary">Pahlawan</span>, Apakah Itu Kamu?
+                    </p>
+                    <p class="text-lg font-medium max-w-[814px]">
+                        Setiap langkah kecil yang kita ambil hari ini akan membawa dampak besar bagi lingkungan kita. Mari bergandeng tangan untuk menjaga keindahan dan keberlanjutan perairan kita!
+                    </p>
+                </div>
+                <div class="w-full flex flex-col xl:flex-row gap-4 justify-between">
+                    <div class="flex items-center gap-2">
+                        <img src="./src/assets/people.png" alt="" class="w-[92px] h-[32px]" />
+                        <div class="text-white">
+                            <p>1200+</p>
+                            <p>Orang Sudah Bergabung</p>
+                        </div>
+                    </div>
+
+                    <a href="/src/pages/Auth/login.html" class="text-secondary btnHover font-medium text-xl bg-primary w-fit flex rounded-lg py-[16px] px-[32px] gap-[10px] items-center">
+                        <p>Jadi Pahlawan</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M14.707 7.293a1 1 0 1 0-1.414 1.414L15.586 11H6a1 1 0 1 0 0 2h9.586l-2.293 2.293a1 1 0 0 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section data-aos="fade-up" class="gap-4 grid grid-cols-2 xl:grid-cols-4 mt-16 2xl:mt-16 2xl:my-0 mx-[50px]">
+            <div class="relative flex flex-col justify-center items-center md:border-b-2 xl:border-r-2 xl:border-b-0">
+                <p class="animated-counter text-fluid150 font-medium text-slate-400 opacity-20" data-target="94" data-suffix="M" data-prefix="$">0M</p>
+                <p class="absolute text-4xl font-medium text-text">Total Funds</p>
+            </div>
+            <div class="relative flex justify-center items-center md:border-b-2 xl:border-r-2 xl:border-b-0">
+                <p class="animated-counter text-fluid150 font-medium text-slate-400 opacity-20" data-target="120" data-suffix="T">0T</p>
+                <p class="absolute text-4xl font-medium text-text">Trash Collected</p>
+            </div>
+            <div class="relative flex justify-center items-center xl:border-r-2 xl:border-b-0">
+                <p class="animated-counter text-fluid150 font-medium text-slate-400 opacity-20" data-target="72" data-suffix="M<sup>2</sup>">0M<sup>2</sup></p>
+                <p class="absolute text-4xl font-medium text-text">Ocean Saved</p>
+            </div>
+            <div class="relative flex justify-center items-center">
+                <p class="animated-counter text-fluid150 font-medium text-slate-400 opacity-20" data-target="1200">0</p>
+                <p class="absolute text-4xl font-medium text-text">Volunteer</p>
+            </div>
+        </section>
+
+        <section
+            data-aos="fade-up"
+            class="2xl:px-[130px] xl:px-[50px] xl:pt-[128px] pt-[64px] pb-[100px] flex flex-col justify-center items-center gap-6 xl:gap-10 bg-no-repeat bg-right-top"
+            style="background-image: url(./src/assets/Background-decoration.svg)"
+        >
+            <div data-aos="fade-up" class="flex flex-col gap-4 xl:grid xl:grid-cols-4">
+                <div class="flex xl:col-span-1 2xl:col-span-2 items-center text-lg font-medium border-black border-[1px] rounded-full gap-4 py-2 px-8 w-fit h-fit">
+                    <hr class="w-5 border-black" />
+                    <p>why?</p>
+                </div>
+                <div class="2xl:col-span-2 xl:col-span-3 grid">
+                    <p class="xl:text-start font-medium text-6xl">
+                        Mengapa
+                        <span class="text-primary">Pembersihan</span> Perairan Itu Penting?
+                    </p>
+                    <p class="text-zinc-500 xl:text-start">
+                        upaya pembersihan perairan tidak hanya bermanfaat bagi lingkungan, tetapi juga meningkatkan kualitas hidup bagi manusia dan makhluk hidup lainnya. Setiap langkah kecil dapat
+                        menciptakan perubahan besar.
+                    </p>
+                </div>
+            </div>
+
+            <div id="slider-container" class="flex w-full max-w-full flex-row lg:grid lg:grid-cols-3 gap-6 overflow-x-auto lg:overflow-visible snap-x snap-mandatory lg:snap-none">
+                <!-- Card 1 -->
+                <div data-aos="fade-up" class="Card shrink-0 snap-start w-[85%] md:w-[100%] max-w-[507px] flex xl:flex-col flex-col-reverse justify-between gap-4 bg-white p-6 rounded-lg shadow">
+                    <div class="flex flex-col gap-3">
+                        <div class="flex items-center gap-4">
+                            <img src="./src/assets/aqua-icon.svg" alt="" />
+                            <p class="text-2xl font-semibold">Lindungi Kehidupan Akuatik</p>
+                        </div>
+                        <p class="text-base text-zinc-500">
+                            Dengan membersihkan perairan dari sampah dan polusi, kita melindungi ekosistem dan memastikan habitat yang sehat bagi berbagai spesies untuk generasi mendatang.
+                        </p>
+                    </div>
+                    <img src="./src/assets/LandingSeaIllustration.svg" alt="" class="xl:mt-auto" />
+                </div>
+
+                <!-- Card 2 -->
+                <div data-aos="fade-up" class="Card shrink-0 snap-start w-[85%] md:w-[100%] max-w-[507px] flex xl:flex-col flex-col-reverse gap-4 justify-between bg-white p-6 rounded-lg shadow">
+                    <div class="flex flex-col gap-3">
+                        <div class="flex items-center gap-4">
+                            <img src="./src/assets/healthy-icon.svg" alt="" />
+                            <p class="text-2xl font-semibold">Kesehatan Masyarakat</p>
+                        </div>
+                        <p class="text-base text-zinc-500">
+                            Menggalang dana untuk membersihkan perairan membantu menyediakan air bersih yang esensial bagi kesehatan dan kesejahteraan komunitas kita.
+                        </p>
+                    </div>
+                    <img src="./src/assets/KesehatanMasyarakatIllustration.svg" alt="" class="xl:mt-auto" />
+                </div>
+
+                <!-- Card 3 -->
+                <div data-aos="fade-up" class="Card shrink-0 snap-start w-[85%] md:w-[100%] max-w-[507px] flex xl:flex-col flex-col-reverse gap-4 justify-between bg-white p-6 rounded-lg shadow">
+                    <div class="flex flex-col gap-3">
+                        <div class="flex items-center gap-4">
+                            <img src="./src/assets/people.svg" alt="" />
+                            <p class="text-2xl font-semibold">Ciptakan Aksi Lingkungan</p>
+                        </div>
+                        <p class="text-base text-zinc-500">Partisipasi Anda dalam pembersihan perairan membangun kesadaran dan mendorong tindakan kolektif untuk melindungi planet kita.</p>
+                    </div>
+                    <img src="./src/assets/AksiLingkunganIllustration.svg" alt="" class="xl:mt-auto" />
+                </div>
+            </div>
+
+            <div class="lg:hidden relative h-2 w-full mt-4 bg-zinc-200 rounded-full overflow-hidden">
+                <div id="scroll-indicator" class="absolute h-full bg-primary rounded-full w-0 transition-all duration-300"></div>
+            </div>
+        </section>
+
+        <section data-aos="fade-up" class="2xl:px-[130px] xl:px-[50px] h-full flex flex-col gap-6 xl:gap-10">
+            <div
+                data-aos="fade-up"
+                class="flex flex-col gap-4 2xl:mb-0 2xl:text-start xl:text-start xl:items-start xl:grid xl:grid-cols-13 2xl:grid-cols-7 bg-no-repeat bg-left-top"
+                style="background-image: url(./src/assets/Background-decoration.svg)"
+            >
+                <div class="col-span-1 flex items-center text-lg font-medium border-black border-[1px] rounded-full gap-4 py-2 px-8 w-fit h-fit">
+                    <hr class="w-5 border-black" />
+                    <p>Donate</p>
+                </div>
+
+                <div class="xl:col-start-3 2xl:col-start-2 col-span-7 2xl:col-span-3">
+                    <p class="text-6xl font-medium">
+                        Aksi <span class="text-primary">Bersama </span> untuk <br />
+                        Perairan Bersih
+                    </p>
+                </div>
+
+                <div class="xl:col-start-10 2xl:col-start-5 xl:col-span-3 flex flex-col gap-4 xl1440:pl-8 2xl:pl-0">
+                    <p class="text-base font-medium text-zinc-600 text-left" style="line-height: 24px">
+                        Setiap donasi Anda akan berkontribusi pada proyek pembersihan perairan yang bertujuan untuk melindungi ekosistem, dan menciptakan lingkungan yang lebih bersih dan sehat bagi
+                        masyarakat serta makhluk hidup di sekitar kita.
+                    </p>
+                    <a
+                        href="/src/pages/DonationList/donationList.html"
+                        class="xl:self-start text-secondary btnHover font-medium text-xl bg-primary w-fit flex rounded-lg py-[16px] px-[32px] gap-[10px] items-center"
+                    >
+                        <p>Donasi Lebih Banyak</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M14.707 7.293a1 1 0 1 0-1.414 1.414L15.586 11H6a1 1 0 1 0 0 2h9.586l-2.293 2.293a1 1 0 0 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div
+                class="w-full max-w-full h-full max-h-[546px] overflow-y-hidden xl:max-h-full flex overflow-x-auto snap-x snap-mandatory xl:grid xl:snap-none xl:overflow-x-hidden xl:grid-cols-3 gap-5"
+            >
+                <!-- card item  -->
+                <div data-aos="fade-up" class="shrink-0 h-full w-[85%] md:w-[65%] xl:w-full flex items-center justify-center">
+                    <div class="flex items-center h-[437px] sm:h-[491px] 2xl:h-[527px] justify-between">
+                        <div class="Card max-w-[508px] h-full flex flex-col gap-3 justify-between">
+                            <div class="flex flex-col gap-3">
+                                <img src="./src/assets/Donation/SouthEeastOcean.png" alt="" />
+                                <div class="flex justify-between gap-4">
+                                    <div>
+                                        <p class="text-2xl font-medium line-clamp-2">South East Ocean Plastic Cleaning</p>
+                                        <p class="text-lg text-zinc-500">by OceanCare</p>
+                                    </div>
+                                    <p class="p-3 bg-primary font-medium rounded-lg text-center flex items-center text-secondary text-2xl h-fit">6%</p>
+                                </div>
+                            </div>
+
+                            <div class="w-full flex flex-col gap-3">
+                                <div>
+                                    <div class="flex justify-between text-sm font-medium">
+                                        <p>6%</p>
+                                        <p>100%</p>
+                                    </div>
+                                    <div class="w-full bg-zinc-200 rounded-full h-2.5">
+                                        <div class="bg-primary h-2.5 rounded-full" style="width: 6%"></div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="font-medium text-zinc-500">Rp 120.000,00 / Rp 2.000.000,00</p>
+                                </div>
+
+                                <a
+                                    href="src/pages/DonationList/donationList.html"
+                                    class="w-full text-secondary font-medium text-lg bg-primary justify-center flex rounded-lg py-[16px] px-[32px] gap-[10px] items-center"
+                                >
+                                    <p>Donasi Sekarang</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M14.707 7.293a1 1 0 1 0-1.414 1.414L15.586 11H6a1 1 0 1 0 0 2h9.586l-2.293 2.293a1 1 0 0 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" class="shrink-0 h-full w-[85%] md:w-[65%] xl:w-full flex items-center justify-center">
+                    <div class="flex items-center h-[437px] sm:h-[491px] 2xl:h-[527px] justify-between">
+                        <div class="Card max-w-[508px] h-full flex flex-col gap-3 justify-between">
+                            <div class="flex flex-col gap-3">
+                                <img src="./src/assets/Donation/RiverRescue.png" alt="" />
+                                <div class="flex justify-between gap-4">
+                                    <div>
+                                        <p class="text-2xl font-medium line-clamp-2">River Rescue Initiative</p>
+                                        <p class="text-lg text-zinc-500">by Green Rivers</p>
+                                    </div>
+                                    <p class="p-3 bg-primary font-medium rounded-lg text-center flex items-center text-secondary text-2xl h-fit">83%</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-3 w-full">
+                                <div>
+                                    <div class="flex justify-between text-sm font-medium">
+                                        <p>83%</p>
+                                        <p>100%</p>
+                                    </div>
+                                    <div class="w-full bg-zinc-200 rounded-full h-2.5">
+                                        <div class="bg-primary h-2.5 rounded-full" style="width: 83%"></div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="font-medium text-zinc-500">Rp 2.500.000,00 / Rp 3.000.000,00</p>
+                                </div>
+
+                                <a
+                                    href="src/pages/DonationList/donationList.html"
+                                    class="w-full text-secondary font-medium text-lg bg-primary justify-center flex rounded-lg py-[16px] px-[32px] gap-[10px] items-center"
+                                >
+                                    <p>Donasi Sekarang</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M14.707 7.293a1 1 0 1 0-1.414 1.414L15.586 11H6a1 1 0 1 0 0 2h9.586l-2.293 2.293a1 1 0 0 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" class="shrink-0 h-full w-[85%] md:w-[65%] xl:w-full flex items-center justify-center">
+                    <div class="flex items-center h-[437px] sm:h-[491px] 2xl:h-[527px] justify-between">
+                        <div class="Card max-w-[508px] h-full flex flex-col gap-3 justify-between">
+                            <div class="flex flex-col gap-3">
+                                <img src="./src/assets/Donation/CoralReef.png" alt="" />
+                                <div class="flex justify-between gap-4">
+                                    <div>
+                                        <p class="text-2xl font-medium line-clamp-2">Coral Reef Revival</p>
+                                        <p class="text-lg text-zinc-500">by Reef Guardians</p>
+                                    </div>
+                                    <p class="p-3 bg-primary font-medium rounded-lg text-center flex items-center text-secondary text-2xl h-fit">24%</p>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col gap-3">
+                                <div>
+                                    <div class="flex justify-between text-sm font-medium">
+                                        <p>24%</p>
+                                        <p>100%</p>
+                                    </div>
+                                    <div class="w-full bg-zinc-200 rounded-full h-2.5">
+                                        <div class="bg-primary h-2.5 rounded-full" style="width: 24%"></div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="font-medium text-zinc-500">Rp 1.200.000,00 / Rp 5.000.000,00</p>
+                                </div>
+
+                                <a
+                                    href="src/pages/DonationList/donationList.html"
+                                    class="w-full text-secondary font-medium text-lg bg-primary justify-center flex rounded-lg py-[16px] px-[32px] gap-[10px] items-center"
+                                >
+                                    <p>Donasi Sekarang</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M14.707 7.293a1 1 0 1 0-1.414 1.414L15.586 11H6a1 1 0 1 0 0 2h9.586l-2.293 2.293a1 1 0 0 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" class="shrink-0 h-full w-[85%] md:w-[65%] xl:w-full flex items-center justify-center">
+                    <div class="flex items-center h-[437px] sm:h-[491px] 2xl:h-[527px] justify-between">
+                        <div class="Card max-w-[508px] h-full flex flex-col gap-3 justify-between">
+                            <div class="flex flex-col gap-3">
+                                <img src="./src/assets/Donation/LakePreservation.png" alt="" />
+                                <div class="flex justify-between gap-4">
+                                    <div>
+                                        <p class="text-2xl font-medium line-clamp-2">Lake Preservation Project</p>
+                                        <p class="text-lg text-zinc-500">by Freshwater Friends</p>
+                                    </div>
+                                    <p class="p-3 bg-primary font-medium rounded-lg text-center flex items-center text-secondary text-2xl h-fit">33%</p>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col gap-3">
+                                <div>
+                                    <div class="flex justify-between text-sm font-medium">
+                                        <p>33%</p>
+                                        <p>100%</p>
+                                    </div>
+                                    <div class="w-full bg-zinc-200 rounded-full h-2.5">
+                                        <div class="bg-primary h-2.5 rounded-full" style="width: 33%"></div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="font-medium text-zinc-500">Rp 2.000.000,00 / Rp 6.000.000,00</p>
+                                </div>
+
+                                <a
+                                    href="src/pages/DonationList/donationList.html"
+                                    class="w-full text-secondary font-medium text-lg bg-primary justify-center flex rounded-lg py-[16px] px-[32px] gap-[10px] items-center"
+                                >
+                                    <p>Donasi Sekarang</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M14.707 7.293a1 1 0 1 0-1.414 1.414L15.586 11H6a1 1 0 1 0 0 2h9.586l-2.293 2.293a1 1 0 0 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" class="shrink-0 h-full w-[85%] md:w-[65%] xl:w-full flex items-center justify-center">
+                    <div class="flex items-center h-[437px] sm:h-[491px] 2xl:h-[527px] justify-between">
+                        <div class="Card max-w-[508px] h-full flex flex-col gap-3 justify-between">
+                            <div class="flex flex-col gap-3">
+                                <img src="./src/assets/DonationIlustration.svg" alt="" />
+                                <div class="flex justify-between gap-4">
+                                    <div>
+                                        <p class="text-2xl font-medium line-clamp-2">Coastal Cleanup Campaign</p>
+                                        <p class="text-lg text-zinc-500">by Shoreline Savers</p>
+                                    </div>
+                                    <p class="p-3 bg-primary font-medium rounded-lg text-center flex items-center text-secondary text-2xl h-fit">40%</p>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col gap-3">
+                                <div>
+                                    <div class="flex justify-between text-sm font-medium">
+                                        <p>40%</p>
+                                        <p>100%</p>
+                                    </div>
+                                    <div class="w-full bg-zinc-200 rounded-full h-2.5">
+                                        <div class="bg-primary h-2.5 rounded-full" style="width: 40%"></div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="font-medium text-zinc-500">Rp 1.200.000,00 / Rp 3.000.000,00</p>
+                                </div>
+
+                                <a
+                                    href="src/pages/DonationList/donationList.html"
+                                    class="w-full text-secondary font-medium text-lg bg-primary justify-center flex rounded-lg py-[16px] px-[32px] gap-[10px] items-center"
+                                >
+                                    <p>Donasi Sekarang</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M14.707 7.293a1 1 0 1 0-1.414 1.414L15.586 11H6a1 1 0 1 0 0 2h9.586l-2.293 2.293a1 1 0 0 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" class="shrink-0 h-full w-[85%] md:w-[65%] xl:w-full flex items-center justify-center">
+                    <div class="flex items-center h-[437px] sm:h-[491px] 2xl:h-[527px] justify-between">
+                        <div class="Card max-w-[508px] h-full flex flex-col gap-3 justify-between">
+                            <div class="flex flex-col gap-3">
+                                <img src="./src/assets/Donation/MangroveRestoration.png" alt="" />
+                                <div class="flex justify-between gap-4">
+                                    <div>
+                                        <p class="text-2xl font-medium line-clamp-2">Mangrove Restoration Effort</p>
+                                        <p class="text-lg text-zinc-500">by Mangrove Protectors</p>
+                                    </div>
+                                    <p class="p-3 bg-primary font-medium rounded-lg text-center flex items-center text-secondary text-2xl h-fit">29%</p>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col gap-3">
+                                <div>
+                                    <div class="flex justify-between text-sm font-medium">
+                                        <p>29%</p>
+                                        <p>100%</p>
+                                    </div>
+                                    <div class="w-full bg-zinc-200 rounded-full h-2.5">
+                                        <div class="bg-primary h-2.5 rounded-full" style="width: 29%"></div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="font-medium text-zinc-500">Rp 1.000.000,00 / Rp 3.500.000,00</p>
+                                </div>
+
+                                <a
+                                    href="src/pages/DonationList/donationList.html"
+                                    class="w-full text-secondary font-medium text-lg bg-primary justify-center flex rounded-lg py-[16px] px-[32px] gap-[10px] items-center"
+                                >
+                                    <p>Donasi Sekarang</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M14.707 7.293a1 1 0 1 0-1.414 1.414L15.586 11H6a1 1 0 1 0 0 2h9.586l-2.293 2.293a1 1 0 0 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="relative mt-[51px] xl:px-[130px] py-[128px] w-full bg-cover bg-no-repeat bg-center" style="background-image: url(./src/assets/Grid%20layers.png)">
+            <div style="background-image: url(./src/assets/radial.png)" class="absolute inset-0 bg-no-repeat bg-cover bg-center z-0"></div>
+            <div data-aos="fade-up" class="absolute inset-0 justify-center items-center hidden xl:flex z-0">
+                <img src="./src/assets/decoration-2.svg" alt="" />
+            </div>
+            <div data-aos="fade-up" class="relative items-center flex flex-col justify-center z-10">
+                <div class="flex flex-col gap-4 text-center">
+                    <p class="text-4xl font-medium">Jadilah Suara untuk Perairan Bersih</p>
+                    <p class="text-fluid250 font-medium">217,924+</p>
+                    <p class="text-4xl font-medium">Orang sudah bergabung</p>
+                </div>
+
+                <a
+                    href="/src/pages/DonationList/donationList.html"
+                    class="text-secondary mt-5 font-medium text-xl btnHover bg-primary w-fit flex rounded-lg py-[16px] px-[32px] gap-[10px] items-center"
+                >
+                    <p class="text-xl">Donasi Sekarang</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M14.707 7.293a1 1 0 1 0-1.414 1.414L15.586 11H6a1 1 0 1 0 0 2h9.586l-2.293 2.293a1 1 0 0 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414z" />
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <div id="footer"></div>
+    </body>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+
+        const counters = document.querySelectorAll('.animated-counter');
+
+        counters.forEach(counter => {
+            const target = +counter.dataset.target;
+            const suffix = counter.dataset.suffix || '';
+            const prefix = counter.dataset.prefix || '';
+            const duration = 5000;
+
+            let startTime = null;
+
+            function animate(timestamp) {
+                if (!startTime) startTime = timestamp;
+                const progress = timestamp - startTime;
+                const current = Math.min(Math.floor((progress / duration) * target), target);
+
+                counter.innerHTML = prefix + current + suffix;
+
+                if (current < target) {
+                    requestAnimationFrame(animate);
+                }
+            }
+
+            requestAnimationFrame(animate);
+        });
+
+        const container = document.getElementById('slider-container');
+        const indicator = document.getElementById('scroll-indicator');
+
+        container.addEventListener('scroll', () => {
+            const scrollLeft = container.scrollLeft;
+            const scrollWidth = container.scrollWidth - container.clientWidth;
+            const percentage = (scrollLeft / scrollWidth) * 100;
+            indicator.style.width = `${percentage}%`;
+        });
+    </script>
+</html>

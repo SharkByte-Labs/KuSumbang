@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../css/output.css" />
+        <link rel="website icon" type="png" href="/src/assets/Kusumbang-logo.png" />
+        <title>History</title>
+    </head>
+    <body>
+        <script src="../../layout/layout.js"></script>
+        <script src="./history.js"></script>
+        <div id="navbar"></div>
+
+        <div class="py-24 xl:px-[130px]">
+            <div class="lg:grid lg:grid-cols-2">
+                <div>
+                    <h1 class="text-6xl font-bold mb-6">Donation History</h1>
+
+                    <div class="search-filter flex flex-col lg:flex-row gap-4 mb-6">
+                        <input type="text" id="searchInput" placeholder="Search by Name or Organization" class="flex-1 px-4 py-2 rounded text-black border border-zinc-200" />
+                        <select id="filterSelect" class="px-4 py-2 rounded text-black border border-zinc-200">
+                            <option value="">Filter</option>
+                            <option value="amount">By Amount</option>
+                            <option value="organization">By Organization</option>
+                            <option value="date">By Date</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="table-container overflow-x-auto">
+                <table class="w-full text-left min-w-[800px] border-collapse">
+                    <thead class="bg-primary text-black rounded-lg">
+                        <tr class="">
+                            <th class="p-4">No</th>
+                            <th class="p-4">Activity Name</th>
+                            <th class="p-4">Date</th>
+                            <th class="p-4">Organization</th>
+                            <th class="p-4">Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody id="donationTableBody" class="divide-y divide-zinc-400"></tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
