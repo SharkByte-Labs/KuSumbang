@@ -30,7 +30,7 @@ If you want to try this project on your local machine, follow these steps:
 
 1. Clone this repository  
    ```bash
-   git clone https://github.com/erza-503/KuSumbang.git
+   git clone https://github.com/SharkByte-Labs/KuSumbang.git
    ```
 
 2. Install dependencies 
